@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS-Python",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": true,
+            "pythonPath": "/usr/bin/python",
+            "program": "${file}",            
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "PYTHONPATH":"/home/{USER_NAME}/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages", 
+             },            
+        }      
+    ]
+}
